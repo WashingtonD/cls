@@ -36,7 +36,7 @@ int cls()
 }
 
 
-void cls2(HANDLE wHnd) /// Getting console Handle as a argument of cls2 function
+void cls2(HANDLE wHnd) /// Getting console Handle as an argument of cls2 function
 {
 	CHAR_INFO consBuffer[col * row]; /// Creating character information buffer; (Containing symbols and other info about characters)
 
